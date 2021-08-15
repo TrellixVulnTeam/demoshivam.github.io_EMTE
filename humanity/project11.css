@@ -39,6 +39,7 @@
     position: relative;
     height: 70vh;
     width: 70%;
+    font-family: 'Oswald', sans-serif;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -104,7 +105,7 @@ form>div>label{
     padding: 10px;
     border-radius: 20px;
     font-size: 1.2em;
-    font-family: cursive;
+    font-family: 'Oswald', sans-serif;
     outline: unset;
   
   
@@ -236,7 +237,7 @@ header{
 }
 
 .navigation ul li{
-    width: 115px;
+    width: 132px;
     height: 100px;
     line-height: 100px;
     float: left;
@@ -256,7 +257,7 @@ header{
     display: block;
     height: 50px;
     line-height: 50px;
-    width: 115px;
+    width: 131px;
     text-align: center;
     border-radius: 10px;
    
@@ -270,12 +271,9 @@ header{
 .navigation ul ul{
     display: none;
     top: 100px;
-    position: absolute;
-   
-
-   
-    
+    position: absolute;    
 }
+
 .navigation ul li:hover>ul{
     display: block !important;
 
@@ -316,6 +314,8 @@ header{
 
    
 }
+
+   
 .rbtn{
     height: 100px;
     width: 10%;
@@ -414,7 +414,7 @@ header{
     width: 570px;
     font-size: 1.2rem;
     margin-top: 20px;
-    font-family: cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold; 
     color: #767272;  
 }
@@ -483,6 +483,8 @@ header{
     justify-content: center;
     flex-direction: column;
     font-size: 1rem;
+    font-weight: 550;
+    font-family: 'Oswald', sans-serif;
     color: #767272;
   
 }
@@ -532,8 +534,9 @@ header{
     justify-content: center;
     flex-direction: column;
     font-size: 1rem;
-
+    font-family: 'Oswald', sans-serif;
     color: #767272;
+    font-weight: 550;
 }
 .s2{
     /* height: 50px; */
@@ -562,7 +565,7 @@ header{
     box-shadow: 3px 3px 3px grey;
     transition-property: transform;
     transition-duration: 0.5s;
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Oswald', sans-serif !important;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -582,7 +585,8 @@ header{
 }
 .works>p{
     margin-top: 20px;
-    font-family: cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 550;
     color: grey;
 }
 .works>a{

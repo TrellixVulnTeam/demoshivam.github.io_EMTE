@@ -80,7 +80,7 @@
 
 
 /* for large mobiles */
-@media only screen and (max-width:652px){
+@media only screen and (max-width:719px){
     /* modal */
     .head{
         left: 0px;
@@ -130,18 +130,25 @@
         display: block;
         position: absolute;
         top: 155px;
+        width: 100%;
       
     }
-    .navigation ul{
+    .toggle{
         display: none;
    
+    }
+    .toggle2{
+        display: block;
     }
     .navigation ul li{
         width: 100%;
         top: -86px;
     }
+    .navigation ul li a{
+        width: 132px;
+    }
     .navigation ul ul{
-        transform: translateY(30px);
+        transform: translateY(84px);
         width: 100%;
         
     }

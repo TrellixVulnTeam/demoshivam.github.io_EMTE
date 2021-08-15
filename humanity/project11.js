@@ -58,11 +58,11 @@ six = document.querySelector('.navigation ul ul');
 // toggle7
 function hamburger(){
     let hides= document.getElementById('toggle');
-    if(hides.style.display=='none'){
-        hides.style.display='block';
+    if(hides.className=='toggle'){
+        hides.className='toggle2';
     }
     else{
-        hides.style.display='none';
+        hides.className='toggle';
 
     }
 }

@@ -1,0 +1,158 @@
+@media only screen and (min-width: 1500px){
+    .image{
+        height: 800px;
+    }
+
+    /* reservation */
+    .reservation{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1232px){
+    /* navigation */
+    nav ul li a{
+        width: 80%;
+    }
+
+    /* welcome */
+    .overlap{
+        position: static;
+        height: auto;
+        width: 100%;
+    }
+    /* contact */
+    .contact_logo span{
+        font-size:3.2rem;
+    }
+    .contact_text h2{
+        font-size: 1.2rem;
+
+    }
+
+    /* reservation */
+    .reservation_row h2{
+        font-size: 3rem !important;
+    }
+
+    /* footer */
+    .footer h2{
+        font-size: 2.5rem !important;
+    }
+
+    .image{
+        height: 100vh;
+    }
+
+    /* image */
+    .about_welcome p{
+        font-size: 1.1rem;
+    }
+
+    .about_welcome h2:nth-child(2){
+        font-size: 1.4rem;
+    }
+
+    .about_welcome h2:nth-child(1){
+        font-size: 2rem;
+    }
+
+    .last{
+        margin-bottom:10% ;
+    }
+
+      
+}
+
+@media only screen and (max-width: 900px){
+    /* navigation */
+    nav ul li a{
+        width: 90%;
+    }
+    header{
+        height: auto;
+        background-color: black !important;
+    }
+   
+    nav ul li{
+        z-index: 2 !important
+    }
+
+    /* slogan */
+    .slogan h2{
+        font-size: 2.8rem !important;
+    }
+    /* welcome */
+    .about_welcome h2:nth-child(1){
+        font-size: 3rem;
+    }
+    .about_welcome h2:nth-child(2), .about_welcome p{
+        font-size: 1rem;
+    }
+   /* contact */
+   .contact{
+       height: auto !important;
+   }
+   .contact_bottom{
+       box-shadow: 0px 2px 2px grey; 
+   }
+
+   /* reservation */
+   form div input{
+    width: 145px !important;
+    height: 57px !important;
+   }
+
+
+   /* footer */
+   .r1,.r2,.r3,.footer{
+    height: auto !important
+   }
+
+
+
+   
+  
+}
+
+@media only screen and (max-width: 577px){
+    /* navigation */
+    nav ul{
+        width: 100% !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    nav ul li,a {
+        width: 100% !important;
+    }
+   
+    /* welcome */
+    .slogan h2{
+        font-size: 1.8rem !important;
+    }
+    
+    .slogan button{
+        font-size: 0.6rem !important;
+    }
+    /* elements */
+    .about_heading{
+        font-size: 3rem !important;
+    }
+    .about_btn{
+        font-size: 2rem !important;
+    }
+
+    /* reservation */
+    .reservation{
+        height: auto !important;
+    }
+
+   form div:nth-child(2n + 1){
+       display: none !important;
+   }
+
+   /* footer */
+   .r2 h2, .r3 h3{
+        box-shadow: inset 0px 2px 2px grey;
+   }
+}

@@ -1,0 +1,335 @@
+
+@media only screen and (min-width:1557px)
+    {  .estd{
+        background-image: url('project_images/uttrakhand.jpg'); 
+        background-position:center;
+    }  
+    .best{
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  /* footer */
+    .footer{
+        max-height: 1000px;
+    }
+    
+   
+}
+
+
+
+@media only screen and (max-width:904px) and (min-width:590px){
+    /* modal */
+    .head{
+        left: 30%;
+    }
+   
+    /* header */
+   .heading::before{
+       font-size: 2rem;
+    transform: translate(-150px,-2px);
+    width: 290px;
+
+   }
+   .heading{
+       font-size: 1rem;
+   }
+    .logo{
+        margin-left: 10px;
+      
+    }
+    .rbtn{
+        margin-right: 5px;
+        width: 76px;
+    }
+    .rbtn button{
+        font-size: 0.6em;
+    }
+    /* established */
+    .estd{
+        height: 450px;
+    }
+    
+
+    /* our works */
+    .work{
+        grid-template-columns: repeat(3, 186px);
+        grid-template-rows: 100px 200px 200px;
+        height: 543spx;
+    }
+    
+    /* testimonals */
+    .employee{
+        min-width: 49.5%;
+    }
+    /* footer */
+    .f1_part>div:nth-child(2)>div{
+        width: 58%;
+        text-align: center;
+    }
+    .f1_part{
+        width: 90%;
+    }
+     /* modal */
+ form>div{
+    width: 75%;
+}
+
+}
+
+
+/* for large mobiles */
+@media only screen and (max-width:652px){
+    /* modal */
+    .head{
+        left: 0px;
+        font-size: 1.4em;
+    }
+    form>div{
+        width: 100%;
+    }
+    .form_logo{
+        display: none;
+    }
+    .form_logo2{
+        display: block;
+    }
+    .gender {
+        font-size: 1.1em;
+      
+    }
+    .btn12>button{
+        padding: 10px;
+        font-size: 1em;
+    }
+    form>div>label {
+        font-size: 1.5em;
+    }  
+    .last_input>h2{
+        font-size: 1.5em;
+    }
+    .input{
+        font-size: 0.8em;
+    }
+    /* header */
+    .heading::before{
+        font-size: 1.5rem;
+     transform: translate(-110px,-2px);
+    width: 219px;
+    }
+    .heading{
+        font-size: 0.5rem;
+    }
+    .nav{
+       display: block;
+       position: relative;
+
+    }
+    .navigation{
+        display: block;
+        position: absolute;
+        top: 155px;
+      
+    }
+    .navigation ul{
+        display: none;
+   
+    }
+    .navigation ul li{
+        width: 100%;
+        top: -86px;
+    }
+    .navigation ul ul{
+        transform: translateY(30px);
+        width: 100%;
+        
+    }
+   .navigation ul ul>li:nth-child(1){
+       border-top:3px inset #C5262E ;
+  
+   }
+  
+  
+    
+    .logo{
+        float: left;
+        width: 100px;
+        position: absolute;
+        top: 49.5%;
+        transform: translateY(-39px);
+            
+    }
+    .ham{
+        display: block;
+
+    }
+    .ham span:hover{
+        cursor: pointer;
+        color: #C5262E;
+    }
+    .rbtn{
+        float: right;
+        width: 100px;
+       
+    }
+    .rbtn button{
+        padding: 5px 5px;
+        font-size: 0.6em;
+    }
+    /* best */
+    .estd{
+        height: 350px;
+    }
+    .best{
+        width: 270px;
+        height: auto;
+       
+        left: 0px;
+    }
+/* little about */
+    .about1,.para{
+        width: 270px;
+    }
+
+    .mid>h2{
+
+        margin-left: 10px ;
+    }
+    /* our branches */
+    .branches{
+        height: 770px;
+    }
+    .branches>h2{
+        margin-top: 10px;
+        font-size: 1.7rem;
+    }
+    .branches_flex{
+        height: 730px;
+        display: block;
+    }
+    .dehradun{
+        width: 94%;
+        height: 350px;
+        grid-template-rows:40px 95px 80px 70px;
+    }
+    .d5{
+        font-size: 0.6rem;
+        
+    }
+    .kotdwara{
+        width:94%;
+        height: 350px;
+        grid-template-rows:40px 95px 80px 70px;
+  
+    }
+    .k5{
+        font-size: 0.6rem;
+        
+    }
+    .work{
+        grid-template-columns: repeat(1,300px);
+        grid-template-rows: 70px repeat(3,200px);
+        height: 712px;
+
+    }
+    .w1{
+        grid-column: unset;
+        font-size: 1em;
+    }
+    .w5,.w6,.w7{
+        display: none;
+    }
+    /* slider */
+    .slider{
+        height: 400px;
+    }
+    .slider_heading{
+        font-size: 0.8em;
+        
+    }
+    .slider_slides{
+        height: 280px;
+        width: 280px;
+    }
+    .slider_slides>img{
+        height: 100%;
+        width: 100%;
+    }
+    .culture,.gallery{
+        transform: unset;
+        width: 30%;
+    }
+
+    /* testimonals */
+    .testimonals{
+        height: 300px;
+    }
+    .test_heading>h2::before{
+       
+    transform: translate(-79px,-12px);
+    }
+    .test_heading>h2{
+        font-size: 0.7em;
+    }
+    .test_slider{
+        height: 200px;
+    }
+    .employee{
+        min-width: 46.5%;
+        height: 189px;
+    }
+    .employeeN{
+        font-size: 0.7em;
+    }
+    .employeeE>p{
+        font-size: 0.8em;
+    }
+    .employeeE>p:nth-child(1)::after{
+        content: "hellosf";
+    }
+    .employeeE>p:nth-child(3){
+        display: none;
+    }
+    .employeeE>p:nth-child(4){
+        display: none;
+    }
+    .left>span,.right>span{
+        font-size: 2em;
+    }
+    /* footer */
+    .footer{
+        display: block;
+        height: auto;
+    }
+    .footer>div{
+        height: 200px;
+        width: 100%;
+    }
+    .f1_part>div:nth-child(1)>h2{
+        font-size: 2.8em;
+    }
+    .f1_part>div:nth-child(2)>div{
+        font-size: 0.7em;
+        width: 55%;
+    }
+    .f1_part{
+        width: 100%;
+    }
+    /* time */
+    .time{
+        display: none;
+    }
+   
+}
+   @media only screen and (max-width:302px) {
+    .branches{
+        height: 810px;
+    }
+    .work{
+        grid-template-columns: repeat(1,270px);
+    }
+    .w1>h2:nth-child(2){
+        font-size: 1.5em;
+     }
+   }

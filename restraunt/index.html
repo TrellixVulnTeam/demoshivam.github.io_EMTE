@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Restraunt</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- sweet alert -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<link rel="stylesheet" href="bsproject2.css">
+<link rel="stylesheet" href="bsproject2mq.css">
+
+</head>
+<body onload="preloader()">
+<!-- preloader -->
+<div class="preloader">
+
+</div>
+
+<!-- main_content of website -->
+<div class="site_wrapper" id="main_content">
+
+    <div class="relative" >
+   
+ <!-- navbar -->
+    <header id="heads" class="container-fluid" >
+        <nav class="navbar navbar-expand-md navbar-dark   text-white">
+          
+            <div class="navbar-brand">
+                <a href="#">
+                <div class="main_logo ">
+                    <img src="images/logo.png" alt="logo" class="img-fluid"> 
+                </div>
+                </a>
+            </div>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation">X</button>
+
+            <div class="collapse navbar-collapse " id="navigation">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item"><a href="#mycarousel" class="nav-link active1 text-white font-weight-bold">HOME</a></li>
+                    <li class="nav-item"><a href="#elements" class="nav-link text-white font-weight-bold">ELEMENTS</a></li>
+                    <li class="nav-item"><a href="#events" class="nav-link text-white font-weight-bold">EVENTS</a></li>
+                    <li class="nav-item"><a href="#pages" class="nav-link text-white font-weight-bold">PAGES</a></li>
+                    <!-- <li class="nav-item"><a href="#" class="nav-link text-white font-weight-bold">SHOP</a></li> -->
+                    <li class="nav-item"><a href="#bookings" class="nav-link text-white font-weight-bold">BOOKINGS</a></li>
+                </ul>
+            </div>
+
+          
+        </nav>
+</header>
+    <!-- carousel -->
+    <div class=" heading ">
+        <div class="slogan  text-white font-weight-bolder">
+            <h2>Meet,Eat,Enjoy</h2>
+            <h2>The True Taste</h2>
+            <button type="button" class="btn btn-danger btn-lg y">Reservations</button>
+            <button type="button" class="btn btn-danger btn-lg">Order Online</button>
+        </div>
+        <div class="carousel slide " id="mycarousel">
+            
+            <ul class="carousel-indicators">
+                <li class="active"  data-slide-to="0" data-target="#mycarousel"></li>
+                <li data-slide-to="1" data-target="#mycarousel"></li>
+                <li data-slide-to="2" data-target="#mycarousel"></li>
+            </ul>
+
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <img src="images/slider2.jpg" alt="image" class="img">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/slider1.jpg" alt="image" class="img">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/slider3.jpg" alt="image" class="img">
+                </div>
+            </div>
+
+            <a href="#mycarousel" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon first"></span>
+            </a>
+            <a href="#mycarousel" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    
+    </div>
+<!-- welcome -->
+    <section class="container-fluid welcome d-flex flex-column justify-content-center " id="events"> 
+      <div class="container">
+        <div class = "row first-row ">
+            <div class="col-md-12 margin-col" ></div>
+            <div class="col-md-6 text-center  image " >
+               
+
+                     <img src="images/welcome.jpg" alt="image" class="rounded img-fluid">
+            
+        
+            </div>
+            <div class="col-md-6  ">
+               <div class=" about_welcome d-flex flex-column justify-content-center  " >
+                     <h2 class="font-weight-bold ">Hello & welcome!</h2>
+                        <h2 class="m font-weight-bold">Lorem, ipsum dolor sit amet consectetur adipisicing 
+                          
+                     </h2>
+                     <p class="m">Asperiores culpa repellat adipisci? Sequi aspernatur, adipisci quas ab nesciunt voluptatibus, ma nob dolor ex tempore repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fuga quo maiores aliquid reiciendis rem
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ullam iusto sapiente quod dolorum, amet vero debitis enim tenetur, culpa, ab repellendus! Numquam, minima quaerat..</p >
+                     <h2 class="last font-weight-bold"><a href="#"><span class="fa fa-heartbeat fa-fw"></span>More About Us </a></h2>
+
+                </div>
+            </div>
+        </div>
+          
+        <div class="overlap ">
+            <div class="row">
+                <div class="col-md-4 ">
+
+                    <div class="card text-center " id="card">
+                      <div class="card-box ">
+                          <span class="fa fa-thumbs-up fa-lg fa-fw"></span>
+                      </div>
+                    
+                        <h2 class="card-title font-weight-bold">Premium Qualilty</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, totam.</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card text-center " id="card">
+                        <div class="card-box ">
+                            <span class="fa fa-pagelines fa-lg fa-fw"></span>
+                        </div>
+                        <h2 class="card-title font-weight-bold">Eco Ingredients </h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, totam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card text-center " id="card">
+                        <div class="card-box ">
+                                 <span class="fa fa-recycle fa-lg fa-fw"></span>
+                        </div>
+                        <h2 class="card-title font-weight-bold">Wood Grill</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, totam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+       
+    </section>
+    
+    <!-- elements -->
+    <section class=" container elements " id="elements">
+        <div class="row">
+            <div class="col-md-12 margin-col"></div>
+            <div class="col-md-6 element"  >
+                <div class=" container_img1 d-flex justify-content-center align-items-center element_hover ">
+                  <div class="about_elements d-flex flex-column font-weight-bolder justify-content-center align-items-center">
+                  
+                    <h2 class="about_heading font-weight-bolder bg-white badge badge-pill">Breakfast</h2>
+                    <button class="btn btn-danger btn-lg about_btn">View Menu</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6 element ">
+                <div class="container_img2 d-flex justify-content-center align-items-center element_hover">
+                    <div class="about_elements d-flex flex-column font-weight-bolder justify-content-center align-items-center">
+                  
+                        <h2 class="about_heading font-weight-bolder bg-white badge badge-pill">Lunch</h2>
+                        <button class="btn btn-danger btn-lg about_btn">View Menu</button>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6 element ">
+                <div class="container_img3  d-flex justify-content-center align-items-center element_hover">
+                    <div class="about_elements d-flex flex-column font-weight-bolder justify-content-center align-items-center">
+                  
+                        <h2 class="about_heading font-weight-bolder bg-white badge badge-pill">Snacks</h2>
+                        <button class="btn btn-danger btn-lg about_btn">View Menu</button>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6 element ">
+                <div class="container_img4  d-flex justify-content-center align-items-center element_hover">
+                    <div class="about_elements d-flex flex-column font-weight-bolder justify-content-center align-items-center">
+                  
+                        <h2 class="about_heading font-weight-bolder bg-white badge badge-pill">Dinner</h2>
+                        <button class="btn btn-danger btn-lg about_btn">View Menu</button>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-12 margin-col"></div>
+        </div>
+    </section>
+
+
+    <!-- contact -->
+    <section class="container ">
+        <div class="row  contact">
+            <div class="col-md-3 contact_bottom  d-flex">
+                <div class="contact_logo d-flex justify-content-center align-items-center">
+                    <span class="fa fa-phone fa-fw"></span>
+                </div>
+                <div class="contact_text d-flex flex-column justify-content-center ">
+                    <h2  class="font-weight-bold">+1800603603</h2>
+                    <h2>xy@gmail.com</h2>
+                    <h5>Contact Us</h5>
+                </div>
+            </div>
+            <div class="col-md-3  contact_bottom d-flex">
+                <div class="contact_logo d-flex justify-content-center align-items-center">
+                    <span class="fa fa-globe fa-fw"></span>
+                </div>
+                <div class="contact_text d-flex flex-column justify-content-center ">
+                    <h2 class="font-weight-bold">56 12th Ave,</h2>
+                    <h2>New York</h2>
+                   <h5> <a href="#" class="text-danger"> <span class="fa fa-arrows-alt fa-fw"></span> Get Direction</a></h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 contact_bottom   d-flex">
+                <div class="contact_logo d-flex justify-content-center align-items-center">
+                    <span class="fa fa-history fa-fw"></span>
+                </div>
+                <div class="contact_text d-flex flex-column justify-content-center  ">
+                    <h2  class="font-weight-bold">Mon - Sat:</h2>
+                    <h2>Noon - 11:30 pm</h2>
+                    <p>Opening Hours</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 contact_bottom  d-flex">
+                <div class="contact_logo d-flex justify-content-center align-items-center">
+                    <span class="fa fa-truck fa-fw"></span>
+                </div>
+                <div class="contact_text d-flex flex-column justify-content-center ">
+                    <h2  class="font-weight-bold">Shipping ,</h2>
+                    <h2>24 Hours</h2>
+                    <p>Home Delivery</p>
+                </div>
+            </div>
+          
+        </div>
+    </section>
+
+
+<!-- reservation -->
+        <section class="container-fluid reservation d-flex align-items-center justify-content-center" id="bookings">
+          <div class="container">
+            <div class="row reservation_row ">
+                <div class="col-md-4  reservation_col d-flex justify-content-center align-items-center">
+                    <h2 class="font-weight-bolder text-center text-white">Make a Reservation</h2>
+                </div>
+                <div class="col-md-8 border_left reservation_col d-flex justify-content-center align-items-center">
+
+                    <form action="#" method="POST" class="form-inline ">
+                       <div class="form-group">
+                           <input type="text" class="form-control text-center" placeholder="dd-mm-yy">
+                       </div>
+
+                       <div class="form-group">
+                        <input type="text" class="form-control text-center" placeholder="time">
+
+                        
+                        <button type="submit" class="btn btn-dark btn-lg">Book a Table</button>
+                   
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+<!-- parallex scroll -->
+
+        <section class="container-fluid parallex">
+           
+        </section>
+
+<!-- footer -->
+ <footer class="container-fluid bg-dark footer "  id="pages">
+
+         <div class="container">
+
+            <div class="row r1 justify-content-center">
+                <div class="col-md-2 font-weight-bold text-center  footer_logo">
+                    <img src="images/logo.png" alt="logo" >
+                    
+                </div>
+            </div>
+
+            <div class="row r2 m">
+                <div class="col-md-4 d-flex flex-column align-items-center ">
+                    <h2 class="text-white font-weight-bolder m">Join Us</h2>
+                    <h4 class="m">Sign Up & Get New Offers</h4>
+               
+                   <input class ="m form-control text-center" type="text" placeholder="Enter Your E-mail" id="mail" name='mail'>
+                  <button class="btn m btn-danger">Sign In</button>
+                   
+               
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center ">
+                    <h2 class="text-white font-weight-bolder m">Connection</h2>
+                    <h4 class="m">Follow Us On Social Media</h4>
+               
+                  <div class="d-flex m icons justify-content-center"> 
+                      <span class="fa fa-facebook fa-fw"></span>
+                      <span class="fa fa-instagram fa-fw"></span>
+                      <span class="fa fa-whatsapp fa-fw"></span>
+                      <span class="fa fa-twitter fa-fw"></span>
+                      
+                </div>
+                   
+               
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center ">
+                    <h2 class="text-white font-weight-bolder m">Our Awards</h2>
+                    <h3 class="m">Best National Restraunts</h3>
+                    <h3>Best Cuisine Of Year 2020</h3>
+                    <h3>Pocket Friendly Charges</h3>
+                    
+                </div>
+            </div>
+
+            <div class="row r3 m">
+                <div class="col-md-12  text-center">
+                    <h3>Copyright 	&#169; &nbsp; 2021 Shivam. All Rights Reserved</h3>
+                </div>
+            </div>
+           
+        </div>
+     </footer>
+
+
+
+    </div>
+
+</div>
+<script src="bsproject2.js"></script>
+</body>
+</html>

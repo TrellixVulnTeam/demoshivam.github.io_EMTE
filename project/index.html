@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project11.css">
+    <link rel="stylesheet" href="MQ11.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <script src="project11.js"></script>
+</head>
+
+<body onload="delay_form()">
+
+    <!-- modal -->
+    <div class="modal" id="mymodal">
+        <div class="form_logo2">
+            <img src="project_images/3.png" alt="image" class="responsive_img">
+        </div>
+        <div class="form">
+            <div class="btn12">
+                <div class="form_logo">
+                    <img src="project_images/3.png" alt="image" class="responsive_img">
+                </div>
+                <div class="head">
+
+                    <h2>JOIN US</h2>
+                </div>
+                <button onclick="hides()" type="button">X</button>
+            </div>
+
+            <form action="#" method="POST" autocomplete="off" onsubmit=" return validation()">
+                <div>
+                    <label for="name" id="names">Name*</label>
+                    <br>
+
+                    <input type="text" id="name" name="name" class="input" placeholder="enter your name....">
+                </div>
+
+                <div>
+                    <label for="mail">Email</label>
+                    <br>
+                    <input type="mail" id="name" name="mail" class="input" placeholder="enter your email....">
+                </div>
+
+                <div>
+                    <label for="number" id="numbers">Number* </label>
+                    <br>
+                    <input type="number" id="number" name="number" class="input" placeholder="enter your number.... ">
+                </div>
+
+                <div class="last_input">
+                    <h2>Gender </h2>
+                    <br>
+
+                    <label for="male" class="gender"> <input type="radio" id="male" name="gender">male </label>
+
+
+
+                    <label for="female" class="gender"><input type="radio" id="female" name="gender">female </label>
+
+
+
+                    <label for="other" class="gender"><input type="radio" id="other" name="gender">other </label>
+
+                </div>
+
+                <div class="last">
+                    <button type="submit">submit</button>
+                    <button type="button" onclick="hides()">cancel</button>
+
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- end modal -->
+
+    <div class="container">
+        
+        
+        <!-- fixed icon of message -->
+        <div class="fix" >
+            <span class="fa fa-comment fa-fw " id="fix1"></span>
+            <!-- notification for fix -->
+            <div class="notification" id="mynotification"> Chat with Us <span class="fa fa-window-close fa-xs" id="closefix" onclick="closes()"></span></div>
+            <div class="rotate" id="myrotate"></div>
+            
+        </div>
+
+        <!-- for navigation bar -->
+        <header>
+            <div class="heading">
+                <h4>HUMANITY</h4>
+                <div class="time" id="mytime">TIME</div>
+            </div>
+            <!-- logo -->
+            <div class="nav" id="one">
+                <div class="logo" id="two">
+                    <img src="project_images/3.png" alt="logo" class="responsive_img">
+                </div>
+                <!-- navigation  -->
+                <nav class="navigation">
+                    <ul id="toggle">
+                        <li class="reactive"><a href="#" class="active "><span class="fa fa-home fa-fw"></span>Home</a></li>
+                        <li><a href="#"><span class="fa fa-question-circle fa-fw"></span>About </a>
+                        </li>
+                        <li><a href="#"><span class="fa fa-graduation-cap fa-fw"></span>Career</a></li>
+                        <li><a href="#"><span class="fa fa-heartbeat fa-fw"></span>Services &#8681;</a>
+                            <ul>
+
+                                <li><a href="#">Donations</a></li>
+                                <li><a href="#">Events</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!--rbtn  -->
+
+
+                <div class="rbtn" id="four">
+                    <button> <a href="#">Apply Now</a></button>
+                </div>
+
+                <div class="ham">
+                    <span class="fa fa-bars fa-fw fa-lg" onclick="hamburger()"></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- for image-->
+        <section class="estd">
+            <div class="best">
+                <h1>Best NGO Of Uttrakhand</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum </p>
+                <p>Lorem ipsum dolor sit amet .</p>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about">
+            <div class="about1">
+                <h2>HUMANITY(Human Beings) is an NGO </h2>
+                <div class="mid">
+                    <h2>in Uttrakhand since 2010</h2>
+                </div>
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <p> labore non eveniet odit, voluptas dolores in </p>
+            </div>
+        </section>
+
+        <!-- our branches -->
+        <section class="branches">
+
+         
+            <h2>OUR BRANCHES</h2>
+            <div class="branches_flex">
+                <div class="dehradun">
+                    <div class="d1">DEHRADUN</div>
+                    <div class="d2">
+                        <img src="project_images/k1.jpg" alt="image" class="responsive_img" />
+
+                    </div>
+                    <div class="d3">
+                        <img src="project_images/k2.jpg" alt="image" class="responsive_img" />
+
+                    </div>
+                    <div class="d4">
+                        <img src="project_images/k3.jpg" alt="image" class="responsive_img" />
+
+                    </div>
+                    <div class="d5">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem, ipsum dolor sit amet conse.</p>
+                        <p>Lorem, ipsum dolor sit .</p>
+                    </div>
+                </div>
+                <div class="kotdwara">
+                    <div class="k1">KOTDWARA</div>
+                    <div class="k2 ">
+                        <img src="project_images/h1.jpg" alt="image" class="responsive_img" />
+                    </div>
+                    <div class="k3 ">
+                        <img src="project_images/h2.jpg" alt="image" class="responsive_img" />
+
+                    </div>
+                    <div class="k4 ">
+                        <img src="project_images/h3.jpg" alt="image" class="responsive_img" />
+
+                    </div>
+                    <div class="k5">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Lorem, ipsum dolor sit amet conse.</p>
+                        <p>Lorem, ipsum dolor sit .</p>
+                    </div>
+                </div>
+  
+            </div>
+        </section>
+
+        <!-- our work -->
+        <section class="work">
+            <div class="w1 works">
+                <h2>WE WORK ON THE</h2>
+                <h2>LATEST ISSUES</h2>
+            </div>
+            <div class="w2 works">
+                <h2>POVERTY</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, tempora.</p>
+                <a href="#">KNOW MORE</a>
+            </div>
+            <div class="w3 works">
+                <h2>RACISM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, tempora.</p>
+                <a href="#">KNOW MORE</a>
+            </div>
+            <div class="w4 works">
+                <h2>EMPLOYMENT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, tempora.</p>
+                <a href="#">KNOW MORE</a>
+            </div>
+            <div class="w5 works">
+                <h2>HEALTH</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, tempora.</p>
+                <a href="#">KNOW MORE</a>
+            </div>
+            <div class="w6 works">
+                <h2>FARMING</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, tempora.</p>
+                <a href="#">KNOW MORE</a>
+            </div>
+            <div class="w7 works">
+                <h2>HARASSMENT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, tempora.</p>
+                <a href="#">KNOW MORE</a>
+            </div>
+        </section>
+
+        <!--auto slider -->
+        <section class="slider">
+
+            <div class="slider_heading">
+                <h2>IT'S A GREAT PLACE TO WORK</h2>
+            </div>
+            <div class="slider_slides">
+                <img src="project_images/p1.jpg" alt="image" id="myslider">
+                <span class="culture">CULTURE</span>
+                <span class="gallery">GALLERY</span>
+            </div>
+
+        </section>
+
+        <!-- testimonals -->
+        <section class="testimonals">
+            <div class="test_heading">
+                <h2>REVIEWS</h2>
+            </div>
+
+            <div class="test_slider">
+                <div class="employee">
+                    <div class="employeeI">
+                        <img src="project_images/T1.jpg" alt="image_one" class="responsive_img">
+                    </div>
+                    <div class="employeeN">
+                        <h2>ROBERT</h2>
+                    </div>
+                    <div class="employeeE">
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+
+                    </div>
+                </div>
+
+                <div class="employee">
+                    <div class="employeeI">
+                        <img src="project_images/my2.jpg" alt="image_one" class="responsive_img">
+                    </div>
+                    <div class="employeeN">
+                        <h2>SHIVAM</h2>
+                    </div>
+                    <div class="employeeE">
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                    </div>
+                </div>
+
+                <div class="employee">
+                    <div class="employeeI">
+                        <img src="project_images/T3.jpg" alt="image_one" class="responsive_img">
+                    </div>
+                    <div class="employeeN">
+                        <h2>GEORGE</h2>
+                    </div>
+                    <div class="employeeE">
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                    </div>
+                </div>
+
+                <div class="employee">
+                    <div class="employeeI">
+                        <img src="project_images/T4.jpg" alt="image_one" class="responsive_img">
+                    </div>
+                    <div class="employeeN">
+                        <h2>DANIEL</h2>
+                    </div>
+                    <div class="employeeE">
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                    </div>
+                </div>
+
+                <div class="employee">
+                    <div class="employeeI">
+                        <img src="project_images/T5.jpg" alt="image_one" class="responsive_img">
+                    </div>
+                    <div class="employeeN">
+                        <h2>MARK</h2>
+                    </div>
+                    <div class="employeeE">
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                    </div>
+                </div>
+
+                <div class="employee">
+                    <div class="employeeI">
+                        <img src="project_images/T6.jpg" alt="image_one" class="responsive_img">
+                    </div>
+                    <div class="employeeN">
+                        <h2>JOHN</h2>
+                    </div>
+                    <div class="employeeE">
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                        <p>Lorem ipsum dolor </p>
+                        <p>consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="left"><span class="fa fa-chevron-left fa-fw" onclick="left()"></span></div>
+            <div class="right"><span class="fa fa-chevron-right fa-fw" onclick="right()"></span></div>
+         
+           
+        </section>
+
+
+        <!-- footer section -->
+        <!-- footer layout -->
+        <div class="f0">
+            <img src="project_images/footer3.png" alt="footer_image" class="responsive_img">
+        </div>
+<div class="container-fluid">
+        <footer class="footer">
+
+ 
+
+            <div class="f1">
+                <div class="f1_part">
+                    <div>
+                        <h2>Get in Touch</h2>
+                    </div>
+                    <div>
+                        <div>
+
+                            <p class="p3"> <span class="fa fa-envelope fa-fw  fa-lg"></span>&nbsp; SAY HELLO</p>
+                            <p class="p4">Uttrakhandngo@gmail.com</p>
+                        </div>
+                        <div>
+                            <p class="p3"><span class="fa fa-phone fa-fw fa-lg"></span> &nbsp; CALL</p>
+                            <p class="p4"> +91-12356789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f2">
+                <div class="center-logo">
+                    <img src="project_images/4.png" alt="logo" class="responsive_img">
+                </div>
+            </div>
+            <div class="f3">
+                <p class="p1">NGO OFFICE DEHRADUN</p>
+                <p class="p2">Lorem ipsum dolor sit</p>
+                <p class="p2">Lorem ipsum dolor sit</p>
+                <p class="p2">Dehradun - 248001</p>
+                <p class="p2">Uttrakhand</p>
+                <a class="map" href="#">VIEW MAP <span class="fa fa-map-marker fa-lg fa-fw"></span></a>
+            </div>
+            <div class="f4">
+                <p class="p1">NGO OFFICE KOTDWARA</p>
+                <p class="p2">Lorem ipsum dolor sit</p>
+                <p class="p2">Lorem ipsum dolor sit</p>
+                <p class="p2">Kotdwara- 246147</p>
+                <p class="p2">Uttrakhand</p>
+                <a class="map" href="#">VIEW MAP <span class="fa fa-map-marker fa-lg fa-fw"></span></a>
+            </div>
+            <div class="f5">
+                <button>check for open position</button>
+                <ul>
+                    <li><span class="fa fa-facebook-f fa-fw fa-lg"></span></li>
+                    <li><span class="fa  fa-linkedin  fa-fw fa-lg"></span></li>
+                    <li><span class="fa fa-twitter fa-fw fa-lg"></span></li>
+                    <li><span class="fa fa-instagram fa-fw fa-lg"></span></li>
+                </ul>
+            </div>
+            <div class="f6">
+                <div>
+                    <p class="p1">REGISTERED OFFICE:</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro repellendus enim minima!</p>
+                </div>
+            </div>
+            <div class="f7">
+                &#169; HUMANITY all right reserved by shivam khantwal
+            </div>
+
+
+
+    
+        </footer>
+    
+</div>
+
+
+    </div>
+</body>
+
+</html>

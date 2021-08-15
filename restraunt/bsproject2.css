@@ -1,0 +1,526 @@
+*{
+      font-family: cursive ;
+      margin: 0px;
+      padding: 0px;
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+}
+/* preloader */
+.preloader{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    /* background-image: linear-gradient(to bottom, #FCB514, #1F1714 50%) ; */
+    overflow: none;
+    display: flex;
+    z-index: 9999;
+    position: fixed;
+    font-weight: bolder;
+    color: white;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+
+.preloader:before{
+    content: "";
+  
+    background-image: conic-gradient(
+        #FBB513 20deg,
+      transparent 120deg
+    );
+    height: 150%;
+    width: 150%;
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    animation: rotate 2s infinite linear;
+
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.preloader:after{
+    content: url('images/logo_.png');
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    /* z-index: 9999999; */
+     /* background-image: linear-gradient(to bottom, #521B07, #1F1714 50%) ; */
+     background-color: black;
+    border-radius: 5px  ;
+top: 3%;left: 3%;;
+display: grid;
+place-items: center;
+font-size: 20px;
+color: #BD7C2E;
+letter-spacing: 6px;
+    }
+
+
+/* main_content */
+/* .site_wrapper{
+    display: none;
+} */
+
+
+.relative{
+    position: relative;
+    display: block;
+}
+/* navigation */
+header{
+
+    height: 120px;
+    position:fixed;
+    /* border: 1px solid red; */
+    width: 100%;
+    line-height: 70px;
+    z-index: 50;
+    
+    transition-property: all;
+    transition-duration: 2s;
+  
+
+  
+}
+
+
+
+nav{
+    
+    width: 100%;
+    
+    z-index: 70;
+    /* background-color: pink; */
+    
+}
+.main_logo{
+    height: 110px;
+    width: 140px;
+}
+.main_logo img{
+    height: 100% !important;
+    width: 100% !important;
+}
+nav ul li{
+    font-size: 0.9em;
+    width: 70%;
+    text-align: center;
+    color: white;
+
+
+}
+.active1{
+      box-shadow: 0px 2px 2px grey;
+    opacity: 1 !important;
+}
+
+nav ul{
+    width: 67%;
+}
+nav ul li:hover a{
+
+  opacity: 1 !important;
+  box-shadow: 0px 2px 2px grey;
+
+
+ 
+}
+nav ul li a{
+    width: 65%;
+    opacity: 0.75 !important;
+    font-family: 'Podkova', serif !important;
+    
+}
+
+/* carousel */
+.heading{
+    position: relative;
+}
+.slogan{
+    position: absolute;
+    z-index: 2;
+    top: 36%;
+    left: 20%;
+
+    width: auto;
+    height: auto;
+    
+
+}
+.slogan h2{
+    font-size: 5rem !important;
+    font-family: 'Patua One' !important;
+  
+   
+}
+
+
+.img{
+    height: 100vh;
+    width: 100%;
+    filter: brightness(30%);
+}
+.first {
+    font-size: 4em !important;
+}
+/* welcome */
+.welcome{
+    height: auto;
+    width: 100%;
+    background-color: #FAF2F0 ;
+    position: relative;
+    background-image: url('images/grey.jpg');
+    background-size: 100% 100%;
+    
+  
+  
+   
+}
+.about_welcome{
+  
+    width: 90%;
+    height: auto;
+    margin: auto;
+ 
+}
+.about_welcome h2:nth-child(1){
+    font-size: 3rem;
+    margin-top: 10%;
+
+    
+}
+.about_welcome p{
+    font-size: 1.3rem;
+    font-family: 'Pacifico' !important;
+}
+
+.image{
+    height: 70vh;
+    min-height: 600px ;
+
+}
+.image img{
+    height: 80%;
+}
+.overlap{
+    height: 16%;
+    width: 70%;
+    /* background-color: yellow;
+     */
+    background-color: white;
+    box-shadow: 4px 4px 4px grey;
+    position: absolute;
+    border-radius: 15px;
+    right: 1%;
+    bottom: 0%;
+    z-index: 20;
+}
+#card{
+    border: none !important;
+}
+#card p{
+       font-family: 'Pacifico' !important;
+}
+.card-box{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color:#C82333;
+    margin: auto;
+    font-size: 3.5rem;
+  
+}
+.last{
+    margin-bottom: 30%;
+}
+.last a{
+    color: #C82333;
+}
+
+/* elements */
+.elements{
+    height:auto;
+    width: 100%;
+    background-color: transparent;
+}
+.elemets_image{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+}
+.element{
+    height: 50vh !important;
+    max-height: 600px;
+}
+.container_img1{
+    background-image: url('images/bf.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90%;
+
+    border-radius: 15px;
+    filter: brightness(75%);
+    filter: blur(50%);
+    width: 90%;
+    margin: auto;
+}
+.container_img2{
+    background-image: url('images/lunch.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90%;
+    filter: brightness(70%);
+    width: 90%;
+    border-radius: 15px;
+    margin: auto;
+}
+.container_img3{
+    background-image: url('images/snacks.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 90%;
+    filter: brightness(70%);
+    border-radius: 15px;
+    margin: auto;
+}
+.container_img4{
+    background-image: url('images/dinner.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: brightness(70%);
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    margin: auto;
+}
+.about_elements{
+    border: 4px solid white;
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
+    
+}
+.about_heading{
+    font-size: 4rem !important;
+   /* color: transparent !important; */
+   opacity: 0.7;
+   transition-duration: 1s;
+   transition-property: opacity;
+    font-family: 'Podkova', serif !important;
+    display: block;
+    transform: translateY(40px);
+}
+.element_hover:hover  .about_heading{
+
+ opacity: 0;
+}
+.about_btn{
+    font-family: 'Podkova', serif !important;
+    position: relative;
+    transform: translateY(400px);
+    transition-duration: 1s;
+    transition-property: transform;
+    font-size: 3rem !important;
+    padding: 10px 10px !important;
+
+}
+.element_hover:hover .about_btn{
+    transform: translateY(-50px);
+}
+.element_hover:hover{
+   transform: scale(1.1);
+}
+.element_hover{
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+/* contact */
+.contact{
+    height: 200px;
+    margin: 0px !important;
+    padding: 0px !important;
+   box-shadow: 4px 4px 4px black, inset 4px 4px 4px black ;
+}
+.contact_logo{
+    height: 100%;
+    width: 27%;
+   
+}
+.contact_logo span{
+    color:#C82333 ;
+    font-size: 5rem;
+
+}
+.contact_text{
+    height: 100%;
+    width: 68%;
+  
+}
+.contact_text h2{
+    font-size: 1.9rem;
+}
+
+
+/* reservation */
+.reservation{
+    height: 37vh;
+    width: 100%;
+    background-color: #C82333;
+    margin-top: 10px;
+
+}
+
+.reservation_row{
+    height: 100% !important;
+ 
+}
+.reservation_row h2{
+    font-size: 4.8rem !important;
+  
+}
+
+form div{
+    margin: 10px !important;
+}
+
+form div input{
+    width: 187px !important;
+    height: 70px !important;
+    border-radius: 10px !important;
+}
+
+form div button{
+    margin: 10px !important;
+    border-radius: 10px !important;
+
+}
+
+/* .border_left{
+    box-shadow:inherit 5px 0px 5px white;
+    
+} */
+
+
+/* parallex scroll */
+.parallex{
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: pink;
+    background-image: url('images/restraunt.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat    ;
+}
+
+/* footer */
+
+ .footer{
+     height: auto;
+     width: 100%;
+     
+     background-color: rgb(0, 0, 0, 0.5);
+     background-image: url('images/footer.jpg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat
+     
+ }
+ .footer_logo{
+     height: 200px !important;
+     max-width: 220px !important;
+ }
+.footer_logo img{
+    height: 100%;
+    width: 100%;
+}
+ .r1{
+     height: 200px;
+     width: 100%;
+     color:#C82333  !important;
+     line-height: 150px;
+     font-family: 'Podkova', serif !important;
+     font-size: 4rem;
+
+ }
+ .r2{
+     height: 400px !important;
+     
+ }
+ .r3{
+     height: 100px !important;
+ }
+ .footer h2{
+    font-family: 'Podkova', serif !important;
+    font-size: 3.5rem;
+ }
+ .footer h4,h3{
+     color: grey;
+     font-family: 'Podkova', serif !important;
+
+ }
+ .footer input{
+     padding: 15px 20px !important;
+     width: 70% !important;
+     border-radius: 10px;
+     
+     border: none;
+
+ }
+
+ .footer button{
+     /* background-color: #F2A057 !important; */
+     background-color: #FCB514 !important;
+     border: none;
+ }
+
+ .icons{
+     height: 50px;
+     width: 100%;
+ }
+ .icons span{
+    
+     color: #FCB514;
+     font-size: 50px;
+     margin: 10px;
+ }
+
+ .footer button:hover{
+      background-color: #DC3545 !important;
+ }
+
+.icons span:hover{
+     color: #DC3545 !important;
+     cursor: pointer !important;
+ }
+
+
+/* utility */
+.b{
+    border: 2px solid white;
+}
+.m{
+    margin-top: 5%;
+}
+.p{
+    padding: 30px 20px;
+
+}
+.margin-col{
+    height: 100px;
+  
+}

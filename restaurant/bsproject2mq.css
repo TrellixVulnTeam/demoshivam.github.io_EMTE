@@ -146,13 +146,18 @@
     .reservation{
         height: auto !important;
     }
-
+/* 
    form div:nth-child(2n + 1){
        display: none !important;
-   }
+   } */
 
    /* footer */
    .r2 h2, .r3 h3{
         box-shadow: inset 0px 2px 2px grey;
    }
+}
+
+/* utility */
+.b{
+    border: 2px solid red;
 }

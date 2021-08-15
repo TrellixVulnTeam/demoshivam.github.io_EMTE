@@ -1,0 +1,175 @@
+/* *{
+    padding: 0px; margin: 0px;
+    overflow-x: hidden;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+.navigation{
+    position: sticky;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    z-index: 1;
+}
+.align>li{
+width: 120px;
+text-align: center;
+font-weight: bold !important;
+
+}
+.align li:hover a{
+    color:grey !important;
+}
+
+
+/* parallex part */
+.parallex{
+    height:100vh;
+    width: 100%;
+    border: 1px solid transparent;
+    background-attachment: fixed;
+    background-image: url('images/studio.jpg');
+    background-size: 100% 100%;
+   filter: brightness(87%);
+    font-family: monospace;
+    filter: blur(50%);
+    
+}
+.m{
+    margin-top: 25%;
+}
+.parallex h1,h2{
+  opacity: 1 !important;
+  font-weight: bolder;
+  color: white;
+  filter: brightness(100%) !important;
+  font-size: 3rem;
+  font-family: 'Arvo', serif;
+   
+}
+.parallex h2{
+    font-size: 4rem ;
+}
+
+
+.parallex>button{
+    border-radius: 10px;
+}
+.studio{
+    height: 700px;
+    width: 100%;
+  
+}
+
+/* services */
+.services{
+
+    height: 100vh;
+    width: 100%;
+    
+
+}
+.services_heading h2{
+    margin-top: 5%;
+}
+.mt{
+    margin-top: 10%;
+}
+
+.card_div{
+    height: 150px;
+    width: 150px;
+    background-color:#FFC107;
+    font-size: 5rem;
+    line-height: 150px;
+    border-radius: 50%;
+    color: white;
+    
+}
+.cd{
+    border: none;
+}
+
+/*portfolio */
+.portfolio{
+    width: 100%;
+    height: auto;
+
+}
+.portfolio p{
+    padding: 0px
+}
+.h{
+    height: auto;
+    width: 300px;
+    margin-top: 20px;
+}
+/* .services_heading{
+    margin-top: 0% !important;
+} */
+
+
+
+/* team */
+.team{
+    height: 100vh;
+    width: 100%;
+
+
+}
+.team h2{
+    margin-top: 5%;
+}
+.image{
+    height: 300px;
+    width: 300px;
+}
+
+.t{
+    border: none !important;
+}
+
+/* footer */
+footer{
+
+    height: auto;
+    width: 100%;
+}
+footer h3{
+  
+        font-weight: normal !important;
+        margin-top: 5%;
+    
+}
+
+footer h2{
+    margin-top: 50px;
+    font-weight: normal !important;
+}
+footer  a:hover {
+    color: grey !important;
+  
+}
+footer a:hover {
+    text-decoration: none !important;
+}
+marquee{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.ff{
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+/* universal utilities/ class */
+.mt3{
+    margin-top: 15px;
+
+    
+}
+.b{
+    border-bottom: 1px solid white;
+}
+

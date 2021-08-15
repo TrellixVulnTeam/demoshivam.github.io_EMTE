@@ -1,0 +1,36 @@
+@media only screen and (max-width: 850px){
+    /* parallex */
+    .studio{
+        height: 500px;
+
+    }
+
+    .m{
+        margin-top: 30%;
+    }
+    .parallex h1{
+        font-size: 2rem  ;
+    }
+    .parallex h2{
+        font-size: 3rem ;
+    }
+    /* services and portfolio */
+    .services ,.portfolio , .team{
+        height: auto !important;
+    }
+
+ 
+}
+
+@media only screen and (max-width : 580px)
+{
+    .portfolio h2{
+        font-size: 2.4rem !important;
+    }
+    .m{
+        margin-top: 50%;
+    }
+    marquee{
+        font-size: 0.55rem;
+    }
+}

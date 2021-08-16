@@ -1,0 +1,16 @@
+/* body */
+body{
+    background-color: #80808044;
+}
+
+
+/* whole DOM */
+.site-wrapper{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.b{
+    border: 1px solid black;
+}

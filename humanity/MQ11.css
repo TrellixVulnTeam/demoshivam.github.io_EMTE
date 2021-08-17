@@ -9,6 +9,12 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+
+    /* services */
+    .services{
+        height: auto;
+    }
   /* footer */
     .footer{
         max-height: 1000px;

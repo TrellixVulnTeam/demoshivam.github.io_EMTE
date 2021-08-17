@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1550px){
+    .team{
+        height: auto;
+     
+    }
+    
+    
+}
 @media only screen and (max-width: 850px){
     /* parallex */
     .studio{

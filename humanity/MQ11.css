@@ -237,12 +237,23 @@
         font-size: 0.6rem;
         
     }
+
+    /* work section */
+
     .work{
         grid-template-columns: repeat(1,300px);
         grid-template-rows: 70px repeat(3,200px);
         height: 712px;
 
     }
+
+    .works>a{
+        color: #C5262E;
+        text-decoration: unset;
+        margin-top: 5%;
+        display: block;
+    }
+      
     .w1{
         grid-column: unset;
         font-size: 1em;

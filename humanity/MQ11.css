@@ -20,6 +20,18 @@
    
 }
 
+@media only screen and (max-width: 1165){
+    .k5{
+        grid-area: five;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 0.5rem !important;
+        font-family: 'Oswald', sans-serif;
+        color: #767272;
+        
+    }
 
 
 @media only screen and (max-width:904px) and (min-width:590px){

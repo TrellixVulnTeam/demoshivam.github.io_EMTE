@@ -1,0 +1,18 @@
+header {
+  position: sticky;
+  z-index: 1030;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav {
+  .navbar-brand {
+    height: 80px;
+    max-width: 160px;
+    img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

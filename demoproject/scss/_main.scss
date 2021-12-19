@@ -28,9 +28,59 @@
     padding: 1px 0 16px 0;
   }
   50% {
-    padding: 1px 6.25rem 16px 6.25rem;
+    padding: 1px 4.25rem 16px 4.25rem;
   }
   100% {
     padding: 1px 0 16px 0;
   }
+}
+
+// about-section
+.about-section{
+  padding: 5rem 0;
+  color: $text-color;
+
+    p:last-of-type{
+      margin-bottom: 5rem;
+    }
+
+      h2,h3{
+        text-align: center;
+        color: $heading-color;
+        text-transform: uppercase;
+      }
+}
+.about-img{
+  height: 50vh;
+  min-height: 300px;
+  max-height: 500px;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+    
+}
+// galllery-section
+.gallery-section{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #191919;
+  text-align: center;
+  color: $text-color;
+
+    h2{
+      color: white;
+    }
+    p{
+      margin-bottom: 2rem;
+    }
+
+    .row{
+      margin-bottom: 2rem;
+    }
+}
+
+.gallery-img{
+  height: 18rem;
+  position: relative;
+  margin-bottom: 1rem;
 }

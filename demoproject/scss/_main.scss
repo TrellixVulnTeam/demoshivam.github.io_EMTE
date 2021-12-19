@@ -63,7 +63,7 @@
 .gallery-section{
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #191919;
+  background-color: $bg-dark;
   text-align: center;
   color: $text-color;
 
@@ -83,4 +83,11 @@
   height: 18rem;
   position: relative;
   margin-bottom: 1rem;
+}
+
+// location section
+.location-section{
+  min-height: 500px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }

@@ -183,6 +183,31 @@ nav .navbar-brand {
   position: relative;
   margin-bottom: 1rem; }
 
+.location-section {
+  min-height: 500px;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+footer {
+  background-color: #191919;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  footer ul {
+    list-style: none;
+    display: flex; }
+    footer ul a {
+      text-decoration: none; }
+
+.footer-img {
+  height: 100px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 1rem; }
+  .footer-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain; }
+
 @media (max-width: 767px) {
   header {
     position: fixed; } }

@@ -126,3 +126,23 @@ body {
 
   }
 }
+
+
+// carousel-navigation-arrow
+.carousel-arrow {
+  border: 1px solid grey;
+  height: 2.75rem;
+  color: grey ;
+  z-index: 10 !important;
+  width: 2.75rem !important;
+  transition: all 0.3s ease-in;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  box-shadow: 0px 0px 4px black;
+
+  &:hover {
+      border: 1px solid #1b4962;
+      color: red;
+  }
+
+}
